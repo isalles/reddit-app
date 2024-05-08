@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reddit.Framework", "Reddit.Framework\Reddit.Framework.csproj", "{3D154E63-C147-4577-8687-A60532EFF5DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reddit.Api", "Reddit.Api\Reddit.Api.csproj", "{AA93DDDF-790D-45ED-BAC2-A70D154E9C53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reddit.Token.Console", "Reddit.Token.Console\Reddit.Token.Console.csproj", "{0A5950BA-5551-4C42-ADFE-EE5505B65CC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DA904E81-EE1B-4190-B645-E36A9EBC57B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reddit.Api.Tests", "Tests\Reddit.Api.Tests\Reddit.Api.Tests.csproj", "{AD79E604-2DBB-4BD8-87E2-EB79AF350764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reddit.Console", "Reddit.Console\Reddit.Console.csproj", "{02E406B4-101D-41B0-A762-31373E6013C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D154E63-C147-4577-8687-A60532EFF5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D154E63-C147-4577-8687-A60532EFF5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D154E63-C147-4577-8687-A60532EFF5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D154E63-C147-4577-8687-A60532EFF5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA93DDDF-790D-45ED-BAC2-A70D154E9C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA93DDDF-790D-45ED-BAC2-A70D154E9C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA93DDDF-790D-45ED-BAC2-A70D154E9C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA93DDDF-790D-45ED-BAC2-A70D154E9C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A5950BA-5551-4C42-ADFE-EE5505B65CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A5950BA-5551-4C42-ADFE-EE5505B65CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A5950BA-5551-4C42-ADFE-EE5505B65CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A5950BA-5551-4C42-ADFE-EE5505B65CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD79E604-2DBB-4BD8-87E2-EB79AF350764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD79E604-2DBB-4BD8-87E2-EB79AF350764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD79E604-2DBB-4BD8-87E2-EB79AF350764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD79E604-2DBB-4BD8-87E2-EB79AF350764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E406B4-101D-41B0-A762-31373E6013C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E406B4-101D-41B0-A762-31373E6013C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E406B4-101D-41B0-A762-31373E6013C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E406B4-101D-41B0-A762-31373E6013C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD79E604-2DBB-4BD8-87E2-EB79AF350764} = {DA904E81-EE1B-4190-B645-E36A9EBC57B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DBAEE7D-38E2-4A11-A996-4F728604E1F2}
+	EndGlobalSection
+EndGlobal

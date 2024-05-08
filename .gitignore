@@ -1,0 +1,12 @@
+
+Reddit.App/.vs/*
+Reddit.App/Reddit.Api/bin/*
+Reddit.App/Reddit.Api/obj/*
+Reddit.App/Reddit.Console/bin/*
+Reddit.App/Reddit.Console/obj/*
+Reddit.App/Reddit.Framework/bin/*
+Reddit.App/Reddit.Framework/obj/*
+Reddit.App/Reddit.Token.Console/bin/*
+Reddit.App/Reddit.Token.Console/obj/*
+Reddit.App/Tests/Reddit.Api.Tests/bin/*
+Reddit.App/Tests/Reddit.Api.Tests/obj/*
